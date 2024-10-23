@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 
-const Recipes = () => {
+const Recipes = ({handleAddRecipeQueue}) => {
     const [recipes, setRecipes] = useState([])
     useEffect(()=>{
         fetch('recipes.json')
@@ -43,7 +44,7 @@ const Recipes = () => {
 
                   </div>
                   <div className="card-actions">
-                    <button className="btn bg-emerald-400 hover:bg-transparent text-gray-600 py-2 rounded-full">Want To Cock</button>
+                    <button onClick={()=>handleAddRecipeQueue(recipe)} className="btn bg-emerald-400 hover:bg-transparent text-gray-600 py-2 rounded-full">Want To Cock</button>
                   </div>
                 </div>
               </div>)
@@ -54,5 +55,11 @@ const Recipes = () => {
         </div>
     );
 };
+
+Recipes.propTypes = {
+  handleAddRecipeQueue: PropTypes.func
+    
+};
+
 
 export default Recipes;
