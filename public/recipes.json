@@ -1,0 +1,92 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Grilled Chicken",
+        "recipe_image": "https://i.ibb.co.com/QXCwTwN/Rectangle-20170-1.png",
+        "description": "Juicy grilled chicken marinated with herbs and spices.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml olive oil",
+            "2 tbsp lemon juice",
+            "1 tsp paprika",
+            "Salt to taste"
+        ],
+        "preparing_time": 45,
+        "calories": 400
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Stir-Fry",
+        "recipe_image": "https://i.ibb.co.com/M8YrBWZ/Rectangle-20170.png",
+        "description": "A quick and healthy stir-fry with mixed vegetables.",
+        "ingredients": [
+            "1 bell pepper",
+            "200 g broccoli",
+            "100 g carrots",
+            "50 ml soy sauce",
+            "1 tbsp sesame oil"
+        ],
+        "preparing_time": 20,
+        "calories": 250
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Spaghetti Carbonara",
+        "recipe_image": "https://i.ibb.co.com/QXCwTwN/Rectangle-20170-1.png",
+        "description": "Creamy pasta with pancetta and Parmesan cheese.",
+        "ingredients": [
+            "300 g spaghetti",
+            "150 g pancetta",
+            "2 eggs",
+            "50 g Parmesan",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": 30,
+        "calories": 550
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Avocado Toast",
+        "recipe_image": "https://i.ibb.co.com/M8YrBWZ/Rectangle-20170.png",
+        "description": "Simple and delicious avocado spread on toasted bread.",
+        "ingredients": [
+            "1 ripe avocado",
+            "2 slices of bread",
+            "1 tsp lemon juice",
+            "Salt and pepper to taste",
+            "Chili flakes (optional)"
+        ],
+        "preparing_time": 10,
+        "calories": 300
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Mango Smoothie",
+        "recipe_image": "https://i.ibb.co.com/QXCwTwN/Rectangle-20170-1.png",
+        "description": "A refreshing smoothie made with ripe mangoes.",
+        "ingredients": [
+            "1 ripe mango",
+            "200 ml milk",
+            "1 tbsp honey",
+            "Ice cubes",
+            "Mint leaves for garnish"
+        ],
+        "preparing_time": 5,
+        "calories": 180
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Mushroom Risotto",
+        "recipe_image": "https://i.ibb.co.com/M8YrBWZ/Rectangle-20170.png",
+        "description": "Creamy risotto with saut\u00e9ed mushrooms and Parmesan.",
+        "ingredients": [
+            "300 g Arborio rice",
+            "400 g mushrooms",
+            "1 onion",
+            "1.2 L chicken broth",
+            "50 g Parmesan"
+        ],
+        "preparing_time": 40,
+        "calories": 500
+    }
+]

@@ -15,7 +15,7 @@ const Banner = () => {
       Cooking is the art of transforming raw ingredients into delicious meals through creativity and technique. It brings people together, nourishing both the body and soul with flavors and shared experiences.
       </p>
       <button className="btn btn-primary rounded-4xl bg-emerald-400">Explore Now</button>
-      <button className="btn btn-primary bg-transparent rounded-4xl">Our Feedback</button>
+      <button className="btn btn-primary bg-transparent rounded-4xl hover:bg-emerald-400">Our Feedback</button>
     </div>
   </div>
 </div>
